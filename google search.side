@@ -1,0 +1,250 @@
+{
+  "id": "d52b122a-34be-4f31-93d1-c0e651b8fb16",
+  "version": "2.0",
+  "name": "google search",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "5ff76416-0182-424b-bb3a-5538192aa712",
+    "name": "test_1",
+    "commands": [{
+      "id": "5193d5b1-9594-48b6-a5a9-6dd000b55999",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a53be26-e4a5-4e90-a4af-edcc9ee4e803",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "758x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1f26bad-83de-49df-8f8f-47739f185602",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40c1ff4-f29d-4978-aefe-16b4e68a8598",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello man whats up"
+    }, {
+      "id": "5a6dee19-a1a2-47a7-994e-1839f76e34c0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b6fa99f1-1b86-4872-bbc7-93f1be254459",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7415e7ce-214f-4dcf-83fe-c64d967a8d08",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f2c37f-13d2-4a49-bae4-ccb8366c584b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5538749c-b33d-46cc-a13c-f4e3f5dead29",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "what is selinium"
+    }, {
+      "id": "ebc99357-7ce7-4ad9-910a-fc5d87c56403",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bf51dbe8-f567-4b8d-833e-2af6733fed9a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab04c13-8360-4075-bbde-1d61a8f5fcaf",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "665f3d5b-1cc1-46f6-b714-2fd69b79bdbd",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b01efd-6122-4ffa-b709-aa60a77a8bc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "why selinium is used"
+    }, {
+      "id": "96a8dfac-28da-4df6-bc99-754a35c55843",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "35c812fd-c6c8-4fd6-9c4e-bdf9fdeabce6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.hdtb-mitem:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=why+selenium+is+used&sxsrf=ALeKk00FkTad1-LLq7_-3Q5-o_rE_RAH0g:1625483524665&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjvh82A5svxAhUKzDgGHQbhBtgQ_AUoAnoECAEQBA')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e330f9b-1fd5-4f99-b786-68b6223bb0af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,550.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5431a053-25e1-4d29-967c-0577401cc033",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Images",
+      "targets": [
+        ["linkText=Images", "linkText"],
+        ["css=.hdtb-mitem:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Images')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=why+selenium+is+used&sxsrf=ALeKk00FkTad1-LLq7_-3Q5-o_rE_RAH0g:1625483524665&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjvh82A5svxAhUKzDgGHQbhBtgQ_AUoAXoECAEQAw')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Images')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b9d3398-aa2e-40f3-b7e4-03172aaa760c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isv-r:nth-child(1) .rg_i",
+      "targets": [
+        ["css=.isv-r:nth-child(1) .rg_i", "css:finder"],
+        ["xpath=//img[@alt='What is Selenium? Introduction to Selenium Automation Testing Tool']", "xpath:img"],
+        ["xpath=//div[@id='islrg']/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9db4be6a-3876-4843-9f66-280c3989df90",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ff76416-0182-424b-bb3a-5538192aa712"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

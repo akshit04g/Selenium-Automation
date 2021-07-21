@@ -1,0 +1,295 @@
+{
+  "id": "729e8784-a568-450e-9194-f15f30216a95",
+  "version": "2.0",
+  "name": "Youtube",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "dcd5e65d-e1fd-4adf-99bc-71ef6c785458",
+    "name": "test_1",
+    "commands": [{
+      "id": "427710bd-f587-49a7-aa00-56dfac521d0d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9257535e-08d1-4dcc-9b1c-08b2d0c0b08d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "766x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3e2710f-dcae-45a1-875f-7bd801da48ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ryan international school"
+    }, {
+      "id": "fac53216-ad84-48b6-9133-43c9143e0a8b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "66498630-c3b7-4d31-a930-afcdeaed3765",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,33.599998474121094)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0841f83-54cd-40b7-815f-90856908c433",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,644.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "231689c7-d80d-4141-9ce1-a5ccbe981da4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1482.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1c8e427-9809-48ff-b0a2-fd83389e6590",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Images",
+      "targets": [
+        ["linkText=Images", "linkText"],
+        ["css=.hdtb-mitem:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Images')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=ryan+international+school&sxsrf=ALeKk03CvNZVhfHFDCjNw_pthsZdnSM8VQ:1625484436815&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiYssaz6cvxAhXDcn0KHfhkDwIQ_AUoA3oECAIQBQ')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Images')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b820346-6a1a-4fb5-bb6f-3e35561f6cc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isv-r:nth-child(1) .rg_i",
+      "targets": [
+        ["css=.isv-r:nth-child(1) .rg_i", "css:finder"],
+        ["xpath=//img[@alt='Ryan international school - fees structure, rating, reviews, location  Mission V - Khoj Vidyalaya ki...']", "xpath:img"],
+        ["xpath=//div[@id='islrg']/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "299b5aef-6765-4a0b-9b38-d5e63f8b9b91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,155.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "450cc928-f26f-45b9-b4c6-0487c80f32ba",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c952b899-57d6-4b0f-8281-fa2455f83e7f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2256d5-928f-471d-9907-4ded369436f2",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb15c655-b99e-4e94-9e5e-8809dd390198",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "youtube"
+    }, {
+      "id": "ce9a3bd6-3a97-4650-aff6-03c7c59ea17d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a88c7f4c-66e1-4d19-8375-2de11989ec53",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,568.727294921875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f5449da-3a81-496c-a23e-35b312904378",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-rich-grid-renderer:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=.ytd-rich-grid-renderer:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/ZazZNkDx5nk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATtIckeXq4_CzqlgWYsttDMZ3btw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[3]", "xpath:attributes"],
+        ["xpath=//a[@id='thumbnail']/yt-img-shadow/img", "xpath:idRelative"],
+        ["xpath=//a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3bfab1f-492f-419d-9df8-242bf1f8caa5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-rich-grid-renderer:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=.ytd-rich-grid-renderer:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/ZazZNkDx5nk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATtIckeXq4_CzqlgWYsttDMZ3btw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[3]", "xpath:attributes"],
+        ["xpath=//a[@id='thumbnail']/yt-img-shadow/img", "xpath:idRelative"],
+        ["xpath=//a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "734b6dfa-275c-4d81-acba-f61c68f84a90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/ZazZNkDx5nk/mqdefault_6s.webp?du=3000&sqp=CKWwi4cG&rs=AOn4CLD53JqW2-9i-E9kjN2y4VBLcVlaSA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00689062-8eca-4938-8cdc-63c4b35aa594",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/ZazZNkDx5nk/mqdefault_6s.webp?du=3000&sqp=CKWwi4cG&rs=AOn4CLD53JqW2-9i-E9kjN2y4VBLcVlaSA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62ea3476-b7b6-43c0-8563-7e85aa852f7f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/ZazZNkDx5nk/mqdefault_6s.webp?du=3000&sqp=CKWwi4cG&rs=AOn4CLD53JqW2-9i-E9kjN2y4VBLcVlaSA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de025a90-16b1-45a4-9898-f86d79af0517",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ytp-progress-bar-padding",
+      "targets": [
+        ["css=.ytp-progress-bar-padding", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[31]/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[31]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e97a9d-dcc0-4337-95e8-74af8960d2ec",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ytp-scrubber-container",
+      "targets": [
+        ["css=.ytp-scrubber-container", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[31]/div/div[2]/div[6]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9954d979-9f00-4c9a-8660-0832309375c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[31]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[31]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da122a6-ee0a-40e2-9296-8dfee9a75fe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e7e59ea8-416d-4c67-87cd-62196aafe63b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dcd5e65d-e1fd-4adf-99bc-71ef6c785458"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
